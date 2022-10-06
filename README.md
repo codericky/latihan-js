@@ -1,0 +1,2 @@
+# latihan-js
+Belajar Javascript
