@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Belajar JS</title>
+    </head>
+
+    <body>
+        <h2>Sedang Latihan Belajar Membuat Percabangan switch case</h2>
+        <p id="aic"></p>
+    </body>
+
+    <script> 
+   var jawaban = prompt("Silakan pilih hadiah")
+   var hadiah ="";
+
+   switch(jawaban){
+    case "1":
+        hadiah = "PC";
+        break;
+    case "2":
+        hadiah = "Flashdisk"
+        break;
+    case "3":
+        hadiah = "SSD";
+        break;
+
+    default:
+            document.write("Anda salah pilih jawaban")
+   }
+        
+   if (hadiah ==="") {
+    document.write("<h3>Kamu gagal mendapatkan hadiah</h3>");
+    } else {
+        document.write("<h3>Kamu berhasil mendapatkan hadiah :" + hadiah);
+   }
+        
+    </script>
+</html>
+
+
+
+
+
+
+<!-- if (hour < 18) {
+    greeting = "Good day";
+  } else {
+    greeting = "Good evening";
+  } -->
+
+
+
+
+<!-- <html>
+    <head>
+        <title>Belajar JS</title>
+    </head>
+
+    <body>
+        <h2>Sedang Latihan Belajar Membuat Function</h2>
+        <button onclick="myfunction()">Klik disini</button>
+        <p id="aic"></p>
+    </body>
+    <script>
+     function myFunction(p1, p2) {
+        return p1 * p2;
+     }
+        document.getElementById("aic").innerHTML = myFunction(5, 2);
+    </script>
+</html> -->
