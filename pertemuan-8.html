@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <title>Sedang Latihan Event JavaScript</title>
+</head>
+
+<body>
+    <p id="aic"></p>
+    <h2>Sedang latihan membuat event dengan JavaScript</h2>
+    <button onclick="document.getElementById('aic').innerHTML = 
+    new Date().getMonth() + 1">Klik tombol ini</button>
+</body>
+</script>
+
+</html>
+
+
+<!-- <html>
+<head>
+    <title>Sedang latihan javascript event dengan radio button</title>
+</head>
+<body>
+    <h3>Pilih mata kuliah favorit kalian:</h3>
+    <input type="radio" id="programming" name="status"> 
+    <label for="progamming">programming</label>
+    <input type="radio" id="linux" name="status"> 
+    <label for="linux">linux</label>
+    <input type="radio" id="mikrotik" name="status">
+    <label for="mikrotik">mikrotik</label> 
+    <p id="result"></p>
+
+    <script>
+        let result = document.querySelector('#result');
+        document.body.addEventListener('change', function (e) {
+            let target = e.target;
+            let message;
+            switch (target.id) {
+                case 'programming':
+                    message = 'Anda menyukai mata kuliah programming';
+                    break;
+                case 'linux':
+                    message = 'Anda menyukai mata kuliah linux';
+                    break;
+                case 'mikrotik':
+                    message = 'Anda menyukai mata kuliah mikrotik';
+                    break;
+            }
+            result.textContent = message;
+        });
+    </script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Sedang latihan javascript Event mouse up</title>
+</head>
+<body>
+    <button id="btn">Click me with any mouse button: left, right, middle, ...</button>
+    <p id="message"></p>
+    <script>
+        let btn = document.querySelector('#btn');
+
+        // disable context menu when right-mouse clicked
+        btn.addEventListener('contextmenu', (e) => {
+            e.preventDefault();
+        });
+
+        // show the mouse event message
+        btn.addEventListener('mouseup', (e) => {
+            let msg = document.querySelector('#message');
+            switch (e.button) {
+                case 0:
+                    msg.textContent = 'Left mouse button clicked.';
+                    break;
+                case 1:
+                    msg.textContent = 'Middle mouse button clicked.';
+                    break;
+                case 2:
+                    msg.textContent = 'Right mouse button clicked.';
+                    break;
+                default:
+                    msg.textContent = `Unknown mouse button code: ${event.button}`;
+            }
+        });
+    </script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Sedang latihan javascript event load</title>
+</head>
+<body>
+    <img id="logo">
+    <script>
+        let logo = document.querySelector('#logo');
+
+        logo.addEventListener('load', (event) => {
+            console.log('Logo berhasil ditambahkan!');
+        });
+
+        logo.src = "logo.png";
+    </script>
+</body>
+</html> -->

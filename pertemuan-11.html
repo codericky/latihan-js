@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Sedang belajar this keyword JS</title>
+    </head>
+    <body>
+        <h2>Sedang latihan this keyword JS</h2>
+        <p id="aic"></p>
+    </body>
+    <script>
+        const identitas ={
+            nama_depan: "Ricky",
+            nama_belakang: "Noviansyah",
+            nis: 12290,
+            kampus: "Areta Informatics College",
+            jurusan: "Teknik Informatika",
+            matkul: ["Design Grafis", "Programming", "Networking", "Linux", "Entreprenur"],
+            TampilMatkul: function() {
+                this.matkul.forEach(h => alert(h))
+            },
+
+            nama_lengkap: function () {
+                return "Nama depan: " + this.nama_depan + "<br />" +  
+                "Nama Belakang: "  + this.nama_belakang + "<br />" +
+                "NIS: " + this.nis + "<br />" +
+                "Kampus: " + this.kampus + "<br />" + 
+                "Jurusan: "  + this.jurusan +  "<br />"                // + " <br />" + "Saya sedang belajar: " + this.matkul[1]
+            }
+        }
+
+        document.getElementById("aic").innerHTML = "" + identitas.TampilMatkul();
+    </script>
+</html>
+
+
+

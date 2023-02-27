@@ -1,0 +1,92 @@
+KELOMPOK 1 (LOOP)
+IZMI
+DEDE
+DIDIN
+
+KELOMPOK 2 (ARRAY) 
+YOGA
+ADJI
+WENDY
+
+KELOMPOK 3 (FUNCTION)
+SABRI
+RIZKI
+FIKRI
+
+KELOMPOK 4 (IF/ELSE)
+FIRDAUS
+MAULANA MALIK
+FAUZAN SYAHMI
+
+KELOMPOK 5 (OBJECT)
+NANDA
+SYARIF
+RIZAL HANIF
+
+// HFHFHFHFHFH
+
+// array
+const arr = ['a', 'b']; // 'c'
+console.log(arr.length === 3);
+
+//function
+const func = function() {
+    return 'Areta Informatics College';
+ };
+ const result = func();
+ console.log(result);
+
+
+ const func = function() {
+    let x = 'Areta';
+    x = x + 'College';
+    return x; // return x
+     };
+     const result = func();
+     console.log(result);
+
+
+     const multiply = function (num) {
+        return num * num;
+     };
+
+
+const data1 = 'Areta';
+const data2 = "Informatics";
+const data3 = `College`;
+// const hasil = data1 + data2 + data3;
+console.log('Saya kuliah di kampus: ' + hasil);
+
+const data1 = 'Areta';
+const data2 = 'College';
+const hasil = data1  + data2; // using + ' ' +
+console.log(hasil);
+
+const matkul = ["Design Grafis", "Programming", "Networking", "Linux", "Entreprenur"];
+console.log("Saya memilih matkul " + matkul);
+
+// console.log("Saya memilih matkul " + matkul.sort());
+// console.log("Saya memilih matkul " + matkul[1]);
+// console.log("Saya memilih matkul " + matkul[0] + matkul[1] + matkul[2]);
+// console.log("Saya memilih matkul " + matkul[1].length);
+// console.log("Saya memilih matkul " + matkul[1].toLocaleLowerCase());
+
+var tahun = [2000, 2003, 2005, 2010, 2014, 2016, 2018, 2021, 2022];
+console.log(tahun);
+
+// var tahun = [2000, 2003, 2005, 2010, 2014, 2016, 2018, 2021, 2022];
+// var hasil = tahun.filter(function(tahun) {
+//   return tahun > 2005;
+// });
+
+// console.log(hasil);
+
+
+
+
+
+
+
+
+
+
